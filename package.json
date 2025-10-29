@@ -1,16 +1,14 @@
 {
-  "name": "gate",
+  "name": "GATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Career microlearning platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.68.0"
+    "@anthropic-ai/sdk": "^x.y.z"
   }
 }
