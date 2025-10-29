@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2865
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 GATE USER FLOW\
+\
+===== LANDING PAGE (index.html) =====\
+- Show overview text\
+- Two options for users:\
+  1. Search box: Type any career field\
+  2. "Browse Careers" button: See pre-selected options\
+\
+OVERVIEW TEXT:\
+"Discover Your Career Path Through Doing\
+Stop wondering what a career might be like. Experience it.\
+GATE transforms career exploration from passive research into active discovery. Through bite-sized, project-based activities, you'll get hands-on experience with the real work professionals do\'97no prior experience required.\
+Experience careers authentically Work through real-world projects that mirror what professionals actually do, from designing marketing campaigns to coding prototypes to analyzing financial data.\
+Learn at your own pace Each microlearning activity takes 15-45 minutes. Fit career exploration into your schedule, not the other way around.\
+Build confidence through making Create tangible work samples while discovering what energizes you. Walk away with both clarity and portfolio pieces.\
+Whether you're choosing a major, considering a career change, or exploring your options, GATE gives you a practical way to answer the question: Is this right for me?\
+Ready to explore? [Get Started] [Browse Careers]"\
+\
+BROWSE CAREERS DROPDOWN:\
+1. Software Developer\
+2. Data Analyst\
+3. UX Designer\
+4. Digital Marketing Manager\
+5. Cybersecurity Analyst\
+6. Project Manager\
+7. Healthcare Data Analyst\
+8. Financial Analyst\
+9. Content Creator\
+10. HR Specialist\
+\
+===== RESULTS PAGE (results.html) =====\
+After searching or selecting a career, show:\
+\
+1. Career Overview\
+   - Broad description of what this career involves\
+   \
+2. Required Skills\
+   - Bulleted list of key skills needed\
+   \
+3. Self-Assessment Questions\
+   - 3-5 questions to help them reflect on fit\
+   - Example: "Do you like solving problems?"\
+   - Example: "Do you get excited by meeting new people?"\
+   \
+4. [Start Microlearning] button\
+\
+===== MICROLEARNING PAGE (microlearning.html) =====\
+Opens in new tab when user clicks [Start Microlearning]\
+\
+Content structure:\
+1. Minimal instructional text (just in time, just enough)\
+\
+2. THE PROJECT - includes these sections:\
+   \
+   a) Project Overview (50 words)\
+      - The scenario/context\
+      - Who needs this (stakeholder)\
+      - The challenge/goal\
+   \
+   b) Tasks (3-5 action items)\
+      - Clear but not prescriptive\
+      - Require decision-making and judgment\
+   \
+   c) Resulting Artifact\
+      - What they'll create/produce\
+      - Concrete and portfolio-worthy\
+   \
+   d) Career Connection\
+      - How this reflects real work\
+      - Skills used\
+      - Why professionals do this\
+\
+===== PROJECT QUALITY CHECKLIST =====\
+(Built into AI prompt - AI will verify before delivering)\
+\uc0\u10003  Would a professional recognize this as real work?\
+\uc0\u10003  Can someone with no experience complete this in 60 minutes?\
+\uc0\u10003  Does the artifact demonstrate professional thinking/judgment?\
+\uc0\u10003  Does reflection surface both skills AND energy/interest alignment?\
+\uc0\u10003  Is this appropriate for someone without previous experience?\
+\uc0\u10003  Is this typical work found in the career?}

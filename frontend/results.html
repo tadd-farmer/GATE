@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Exploration - GATE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="index.html">GATE</a></h1>
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </header>
+
+        <main>
+            <div id="loading">
+                <p>Generating your personalized career exploration...</p>
+            </div>
+
+            <div id="content" style="display: none;">
+                <h2 id="careerTitle"></h2>
+
+                <section class="career-section">
+                    <h3>Career Overview</h3>
+                    <div id="careerOverview"></div>
+                </section>
+
+                <section class="career-section">
+                    <h3>Required Skills</h3>
+                    <div id="requiredSkills"></div>
+                </section>
+
+                <section class="career-section">
+                    <h3>Self-Assessment Questions</h3>
+                    <p>Reflect on these questions to explore your fit for this career:</p>
+                    <div id="selfAssessment"></div>
+                </section>
+
+                <section class="career-section cta-section">
+                    <button id="startMicrolearning" class="cta-button">Start Microlearning Project</button>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
