@@ -1,4 +1,3 @@
-// Serverless function for Vercel
 const Anthropic = require('@anthropic-ai/sdk');
 
 module.exports = async (req, res) => {
@@ -12,6 +11,9 @@ module.exports = async (req, res) => {
     res.status(200).end();
     return;
   }
+
+  console.log('API Key exists:', !!process.env.ANTHROPIC_API_KEY);
+  console.log('API Key first 10 chars:', process.env.ANTHROPIC_API_KEY?.substring(0, 10));
 
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
